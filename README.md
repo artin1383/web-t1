@@ -1,9 +1,7 @@
 # 🖌️ React Drawing App
-
-A fully interactive web-based drawing app built with **React + TypeScript + Vite**.  
-The app allows users to create, move, resize, delete, import, and export simple shapes on a canvas. It's a great mini project demonstrating interactive state management, drag-and-drop, resizing, and file handling in React and i use tailwind and shadcn components.
-شد 
 ---
+A fully interactive web-based drawing app built with **React + TypeScript + Vite**.  
+The app allows users to create, move, resize, delete, import, and export simple shapes on a canvas. It's a great mini project demonstrating interactive state management, drag-and-drop, resizing, and file handling in React and i use  **tailwind and shadcn components**.
 
 ## ✨ Features
 
