@@ -12,7 +12,7 @@ export default function Footer({canvasItems}: FooterProps) {
                 <div key={shape} className="flex items-center gap-2">
                     <ShapeRenderer shape={shape} size={24}/>
                     <span className="text-lg font-semibold">
-            {canvasItems.filter((s) => s.shape === shape).length}
+            {canvasItems?.filter((s) => s.shape === shape).length}
           </span>
                 </div>
             ))}

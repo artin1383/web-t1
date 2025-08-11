@@ -125,7 +125,7 @@ export default function Canvas({
             onMouseDown={handleCanvasMouseDown}
             onClick={() => setSelectedItemId(null)}
         >
-            {canvasItems.map((item) => (
+            {canvasItems?.map((item) => (
                 <div
                     key={item.id}
                     className={`absolute ${selectedItemId === item.id ? "ring-2 ring-blue-400" : ""}`}
